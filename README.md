@@ -15,3 +15,5 @@
 # Day 3  2025/6/12
 
 今天提早来到实训教室，在实训前试着把版面区域检测产线跑通。我决定自己用较新的paddleocr来重写，其中一个较大的改动就是LayoutDetection改为了PPStructure函数，后者可以很好地实现产线要求。在重写代码后产线顺利跑通，第一个bad case貌似也水落石出了!
+
+10:15 a.m. 补:并非水落石出。但我把环境配好了。python 3.8 + cuda 11.8 + paddlepaddle 3.0.0 + paddleocr 3.0.1
